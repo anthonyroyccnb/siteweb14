@@ -1,0 +1,122 @@
+body {
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+}
+
+
+/* =========== BOITE HOVER ============== */
+
+.hover {
+    padding: 10px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #3f3f3f;
+    transition: background-color 0.5s ease; /* Transition de la couleur d'arriere plan */
+}
+
+.hover:hover {
+    background-color: aqua; /* couleur d'arriere plan */
+    color: #1f1f1f;
+}
+
+/* =========== BOITE CHECKED ============== */
+
+input {
+    transition: outline 0.5s ease;
+}
+
+input:checked {
+    outline: 6px solid aqua;
+}
+
+
+/* =========== MOBILE ============== */
+
+/* Mobile Responsive */
+
+@media (min-width:320px) {
+    /* smartphone */
+    .mobile {
+        background-color: green;
+        padding: 10px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width:480px) {
+    /* landscape smartphone */
+    .mobile {
+        background-color: green;
+        padding: 10px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: green;
+    }
+}
+
+
+@media (min-width:600px) {
+    /* Portrait Tablet */
+    .mobile {
+        background-color: blue;
+        padding: 10px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-width:801px) {
+    /* Landscape Tablet */
+    .mobile {
+        background-color: blue;
+        padding: 10px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: blue;
+    }
+}
+
+
+
+@media (min-width:1025px) { 
+    /* Big Landscape */
+    .mobile {
+        background-color: red;
+        padding: 10px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: red;
+    }
+}
+
+@media (min-width:1281px) {
+    /* Laptop Desktop */
+    .mobile {
+        background-color: red;
+        padding: 10px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: red;
+    }
+}
