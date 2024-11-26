@@ -1,8 +1,14 @@
 body {
     background-color: #1f1f1f;
     color: #f1f1f1;
+    padding: 0px;
+    margin: 0px;
 }
 
+nav {
+    padding: 5px 32px;
+    background-color: #3f3f3f;
+}
 
 /* =========== BOITE HOVER ============== */
 
@@ -21,14 +27,30 @@ body {
 
 /* =========== BOITE CHECKED ============== */
 
-input {
+.checkbox {
     transition: outline 0.5s ease;
 }
 
-input:checked {
+.checkbox:checked {
     outline: 6px solid aqua;
 }
 
+/* =========== INPUT ============== */
+#text {
+    transition: outline 0.5s ease;
+    transition: background 5s ease;
+    transition: color 0.5s ease;
+}
+
+#text:focus {
+    background-color: red;
+    color: white;
+    outline: 10px solid red;
+}
+
+:where(ol, ul) {
+    background-color: red;
+}
 
 /* =========== MOBILE ============== */
 
@@ -45,6 +67,7 @@ input:checked {
 
     h1 {
         color: green;
+        font-size: 4px;
     }
 }
 
@@ -59,6 +82,7 @@ input:checked {
 
     h1 {
         color: green;
+        font-size: 4px;
     }
 }
 
@@ -74,6 +98,7 @@ input:checked {
 
     h1 {
         color: blue;
+        font-size: 15px;
     }
 }
 
@@ -88,6 +113,7 @@ input:checked {
 
     h1 {
         color: blue;
+        font-size: 15px;
     }
 }
 
@@ -104,6 +130,7 @@ input:checked {
 
     h1 {
         color: red;
+        font-size: 50px;
     }
 }
 
@@ -118,5 +145,6 @@ input:checked {
 
     h1 {
         color: red;
+        font-size: 50px;
     }
 }
