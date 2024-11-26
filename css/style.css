@@ -12,7 +12,14 @@ nav {
     background-color: #3f3f3f;
     display: flex;
     align-items: center;
-    gap: 15px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.menu {
+    gap: 20px;
 }
 
 .spacer {
@@ -97,11 +104,11 @@ a:hover {
 }
 
 @media (min-width:1025px) { 
-    .menu { display: block; }
+    .menu { display: flex; }
     .menu-mobile { display: none; }
 }
 
 @media (min-width:1281px) {
-    .menu { display: block; }
+    .menu { display: flex; }
     .menu-mobile { display: none; }
 }
